@@ -1,0 +1,7 @@
+ervices:
+  - type: web
+    name: my-app
+    env: python
+    pythonVersion: 3.8.10  # Specify the correct Python version
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn credentials_api.wsgi"
