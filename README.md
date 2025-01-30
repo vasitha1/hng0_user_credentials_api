@@ -1,2 +1,15 @@
-# hng0_user_credentials_api
-This is a public API that returns a user account, the current date and time and a github url
+cd
+# HNG12 Stage 0 Backend API
+
+This API provides basic information in JSON format:
+
+- Registered email address
+- Current datetime (ISO 8601)
+- GitHub URL of the codebase
+
+**Technology Stack:**
+
+- Programming Language/Framework: Django (Python)
+
+**Deployment:**
+
