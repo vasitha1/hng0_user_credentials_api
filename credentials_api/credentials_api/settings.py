@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-%^))3$hvll7r98()#yv555sf3%-6=5&0_azcbwv!rrbb9+q80y
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['myapp.railway.app']
+ALLOWED_HOSTS = ['myapp.railway.app', '127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -59,8 +59,8 @@ CORS_ALLOW_METHODS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [  
-    'https://example.com',  
-    'https://anotherdomain.com',  
+    'http://127.0.0.1',
+    'http://localhost' ,
 ]  
 
 ROOT_URLCONF = 'credentials_api.urls'
